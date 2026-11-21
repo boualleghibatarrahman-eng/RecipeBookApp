@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bg_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_title"
+            android:maxLength="30"
+            android:textColor="@color/text_dark"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/stepsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="@string/hint_steps"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:maxLength="300"
+            android:textColor="@color/text_dark"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/keywordsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_keywords"
+            android:maxLength="30"
+            android:textColor="@color/text_dark"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_save"
+            android:backgroundTint="@color/baby_blue"
+            android:textColor="@color/text_dark" />
+    </LinearLayout>
+</ScrollView>
